@@ -1,0 +1,116 @@
+"C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.3\jbr\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.3\lib\idea_rt.jar=61084:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\tranj\Documents\BU Accelerated Degree Program\Spring 2020\Computer Architecture\Projects\out\production\Projects" Simulator.Main
+READING from Address x5 - Cache MISS - Brought following data from memory to cache: ==== [ x5 ] , with block, from address 0 - f
+READING from Address x6 - Cache HIT  - Reading following data that's in the cache:  ==== [ x6 ]
+READING from Address x7 - Cache HIT  - Reading following data that's in the cache:  ==== [ x7 ]
+READING from Address x14c - Cache MISS - Brought following data from memory to cache: ==== [ x4c ] , with block, from address 140 - 14f
+READING from Address x14d - Cache HIT  - Reading following data that's in the cache:  ==== [ x4d ]
+READING from Address x14e - Cache HIT  - Reading following data that's in the cache:  ==== [ x4e ]
+READING from Address x14f - Cache HIT  - Reading following data that's in the cache:  ==== [ x4f ]
+READING from Address x150 - Cache MISS - Brought following data from memory to cache: ==== [ x50 ] , with block, from address 150 - 15f
+READING from Address x151 - Cache HIT  - Reading following data that's in the cache:  ==== [ x51 ]
+READING from Address x3a6 - Cache MISS - Brought following data from memory to cache: ==== [ xa6 ] , with block, from address 3a0 - 3af
+READING from Address x4c3 - Cache MISS - Brought following data from memory to cache: ==== [ xc3 ] , with block, from address 4c0 - 4cf
+Display Current Cache:
+----------------------------------------------------------------------------------
+|        C U R R E N T   C A C H E                                               |
+----------------------------------------------------------------------------------
+                                          Data
+Slot  Valid Tag   0   1   2   3   4   5   6   7   8   9   a   b   c   d   e   f   
+_____ _____ _____ ________________________________________________________________
+0     1     0     0   1   2   3   4   5   6   7   8   9   a   b   c   d   e   f   
+1     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+2     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+3     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+4     1     1     40  41  42  43  44  45  46  47  48  49  4a  4b  4c  4d  4e  4f  
+5     1     1     50  51  52  53  54  55  56  57  58  59  5a  5b  5c  5d  5e  5f  
+6     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+7     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+8     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+9     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+a     1     3     a0  a1  a2  a3  a4  a5  a6  a7  a8  a9  aa  ab  ac  ad  ae  af  
+b     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+c     1     4     c0  c1  c2  c3  c4  c5  c6  c7  c8  c9  ca  cb  cc  cd  ce  cf  
+d     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+e     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+f     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+WRITING data [ x99 ] to address x14c - Cache HIT
+WRITING data [ x7 ] to address x63b - Cache MISS - Brought block at address 630 - 63f to cache, and wrote data at offset
+READING from Address x582 - Cache MISS - Brought following data from memory to cache: ==== [ x82 ] , with block, from address 580 - 58f
+Display Current Cache:
+----------------------------------------------------------------------------------
+|        C U R R E N T   C A C H E                                               |
+----------------------------------------------------------------------------------
+                                          Data
+Slot  Valid Tag   0   1   2   3   4   5   6   7   8   9   a   b   c   d   e   f   
+_____ _____ _____ ________________________________________________________________
+0     1     0     0   1   2   3   4   5   6   7   8   9   a   b   c   d   e   f   
+1     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+2     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+3     1     6     30  31  32  33  34  35  36  37  38  39  3a  7   3c  3d  3e  3f  
+4     1     1     40  41  42  43  44  45  46  47  48  49  4a  4b  99  4d  4e  4f  
+5     1     1     50  51  52  53  54  55  56  57  58  59  5a  5b  5c  5d  5e  5f  
+6     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+7     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+8     1     5     80  81  82  83  84  85  86  87  88  89  8a  8b  8c  8d  8e  8f  
+9     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+a     1     3     a0  a1  a2  a3  a4  a5  a6  a7  a8  a9  aa  ab  ac  ad  ae  af  
+b     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+c     1     4     c0  c1  c2  c3  c4  c5  c6  c7  c8  c9  ca  cb  cc  cd  ce  cf  
+d     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+e     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+f     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+READING from Address x348 - Cache MISS - Brought following data from memory to cache: ==== [ x48 ] , with block, from address 340 - 34f
+READING from Address x3f - Cache MISS - Brought following data from memory to cache: ==== [ x3f ] , with block, from address 30 - 3f
+Display Current Cache:
+----------------------------------------------------------------------------------
+|        C U R R E N T   C A C H E                                               |
+----------------------------------------------------------------------------------
+                                          Data
+Slot  Valid Tag   0   1   2   3   4   5   6   7   8   9   a   b   c   d   e   f   
+_____ _____ _____ ________________________________________________________________
+0     1     0     0   1   2   3   4   5   6   7   8   9   a   b   c   d   e   f   
+1     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+2     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+3     1     0     30  31  32  33  34  35  36  37  38  39  3a  3b  3c  3d  3e  3f  
+4     1     3     40  41  42  43  44  45  46  47  48  49  4a  4b  4c  4d  4e  4f  
+5     1     1     50  51  52  53  54  55  56  57  58  59  5a  5b  5c  5d  5e  5f  
+6     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+7     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+8     1     5     80  81  82  83  84  85  86  87  88  89  8a  8b  8c  8d  8e  8f  
+9     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+a     1     3     a0  a1  a2  a3  a4  a5  a6  a7  a8  a9  aa  ab  ac  ad  ae  af  
+b     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+c     1     4     c0  c1  c2  c3  c4  c5  c6  c7  c8  c9  ca  cb  cc  cd  ce  cf  
+d     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+e     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+f     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+READING from Address x14b - Cache MISS - Brought following data from memory to cache: ==== [ x4b ] , with block, from address 140 - 14f
+READING from Address x14c - Cache HIT  - Reading following data that's in the cache:  ==== [ x4c ]
+READING from Address x63f - Cache MISS - Brought following data from memory to cache: ==== [ x3f ] , with block, from address 630 - 63f
+READING from Address x83 - Cache MISS - Brought following data from memory to cache: ==== [ x83 ] , with block, from address 80 - 8f
+Display Current Cache:
+----------------------------------------------------------------------------------
+|        C U R R E N T   C A C H E                                               |
+----------------------------------------------------------------------------------
+                                          Data
+Slot  Valid Tag   0   1   2   3   4   5   6   7   8   9   a   b   c   d   e   f   
+_____ _____ _____ ________________________________________________________________
+0     1     0     0   1   2   3   4   5   6   7   8   9   a   b   c   d   e   f   
+1     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+2     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+3     1     6     30  31  32  33  34  35  36  37  38  39  3a  3b  3c  3d  3e  3f  
+4     1     1     40  41  42  43  44  45  46  47  48  49  4a  4b  4c  4d  4e  4f  
+5     1     1     50  51  52  53  54  55  56  57  58  59  5a  5b  5c  5d  5e  5f  
+6     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+7     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+8     1     0     80  81  82  83  84  85  86  87  88  89  8a  8b  8c  8d  8e  8f  
+9     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+a     1     3     a0  a1  a2  a3  a4  a5  a6  a7  a8  a9  aa  ab  ac  ad  ae  af  
+b     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+c     1     4     c0  c1  c2  c3  c4  c5  c6  c7  c8  c9  ca  cb  cc  cd  ce  cf  
+d     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+e     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+f     0     0     0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  
