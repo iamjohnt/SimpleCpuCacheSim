@@ -2,6 +2,8 @@
 
 A project done for a computer architecture course, written in Java. This project simulates a simplified CPU cache. You can feed the program a sequence of reads or writes, and it can display the state of cache at any point. 
 
+![screenshot of example console output](https://github.com/iamjohnt/SimpleCpuCacheSim/blob/master/screenshot.PNG)
+
 # Installation
 
 Clone this repo, and run in any Java IDE. 
